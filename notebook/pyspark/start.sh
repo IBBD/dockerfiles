@@ -6,4 +6,5 @@
 
 docker run -d -p 8888:8888 \
     -v /var/www/notebook/pyspark/work:/home/jovyan/work
-    ibbd/pyspark-notebook
+    ibbd/pyspark-notebook \
+    start-notebook.sh --NotebookApp.token='ibbd-data'
