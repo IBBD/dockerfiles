@@ -18,6 +18,3 @@ ENV TERM xterm
 
 # Define mountable directories.
 VOLUME /var/www
-
-# 工作目录
-WORKDIR /var/www 
